@@ -1,5 +1,24 @@
 # -*- coding: UTF-8 -*-
 
+"""
+Author: Prof. Yacine Yaddaden, Ph. D. (Université du Québec à Rimouski)
+
+IMPORTANT : 
+If used in the context of research project, please cite the following paper :
+
+@article{YADDADEN2023200166,
+    title = {An efficient facial expression recognition system with appearance-based fused descriptors},
+    journal = {Intelligent Systems with Applications},
+    volume = {17},
+    pages = {200166},
+    year = {2023},
+    issn = {2667-3053},
+    doi = {https://doi.org/10.1016/j.iswa.2022.200166},
+    url = {https://www.sciencedirect.com/science/article/pii/S266730532200103X},
+    author = {Yacine Yaddaden}
+}
+"""
+
 from os import listdir, path, mkdir
 from math import sqrt, acos, degrees
 from joblib import dump, load
